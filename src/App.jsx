@@ -43,7 +43,7 @@ function App() {
 
         {/* Overlay de imagen */}
         <img
-          src="./src/assets/images/nueva-fondo.png"
+          src="/nueva-fondo.png"
           width="1920"
           height="1080"
           className="fixed w-screen h-screen select-none pointer-events-none z-50 inset-0"

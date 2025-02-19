@@ -7,7 +7,7 @@ function Proyectos() {
     {
       nombre: "AdminfyApp",
       descripcion: "Aplicación de gestión de entidades en proceso de desarrollo.",
-      imagen: "src/assets/images/adminfy.png",
+      imagen: "/adminfy.png",
       enlace: "https://adminfyapp.com/"
     },
   ];

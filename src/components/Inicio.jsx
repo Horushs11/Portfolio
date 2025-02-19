@@ -4,7 +4,7 @@ function Inicio() {
       {/* Imagen de perfil */}
       <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-[#D9D9D9] mb-6">
         <img
-          src="/src/assets/images/Foto-cv.png"
+          src="/Foto-cv.png"
           alt="Foto de perfil"
           className="w-full h-full object-cover"
         />
