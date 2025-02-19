@@ -8,6 +8,7 @@ import Contacto from "./components/Contacto";
 import LoadingScreen from "./components/LoadingScreen";
 import Experiencia from "./components/Experiencia";
 import Header from "./components/Header";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -15,10 +16,10 @@ function App() {
   useEffect(() => {
     // Simula el tiempo de carga
     const timer = setTimeout(() => {
-      setIsLoaded(true); // Cambia el estado después de que termine la carga
-    }, 3500); // Ajusta el tiempo según lo que necesites
+      setIsLoaded(true);
+    }, 3500);
 
-    return () => clearTimeout(timer); // Limpia el temporizador
+    return () => clearTimeout(timer);
   }, []);
 
   useEffect(() => {
@@ -74,6 +75,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 }
