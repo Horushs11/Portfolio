@@ -1,0 +1,22 @@
+.custom-carousel .control-arrow {
+    width: 50px !important; /* Ajusta el tamaño del área de las flechas */
+  }
+  
+  .custom-carousel .control-prev {
+    left: -20px !important; /* Aumenta la distancia a la izquierda */
+  }
+  
+  .custom-carousel .control-next {
+    right: -20px !important; /* Aumenta la distancia a la derecha */
+  }
+  
+  .custom-carousel .control-arrow {
+    background: none !important;
+    box-shadow: none !important;
+  }
+  
+  .custom-carousel .control-arrow:hover {
+    background: none !important;
+    box-shadow: none !important;
+  }
+  

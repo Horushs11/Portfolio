@@ -1,0 +1,13 @@
+/* Header.css */
+.header {
+    display: none; /* Oculta el header en móviles */
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .header {
+      display: flex; /* Muestra el header en pantallas grandes */
+      place-content: center;
+    }
+  }
+  
