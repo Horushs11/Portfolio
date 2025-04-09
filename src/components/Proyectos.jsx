@@ -10,6 +10,12 @@ function Proyectos() {
       imagen: "/adminfy.png",
       enlace: "https://adminfyapp.com/"
     },
+    {
+      nombre: "Pokefy",
+      descripcion: "Aplicación de visualización de pokemons.",
+      imagen: "/Pokefy.png",
+      enlace: "https://pokefy-five.vercel.app/"
+    },
   ];
 
   return (

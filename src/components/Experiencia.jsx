@@ -1,9 +1,11 @@
+
+
 function Experiencia() {
   return (
     <div id="Experiencia" className="flex items-center justify-center min-h-screen">
+     
       <div className="md:bg-[#121212] text-[#D9D9D9] font-semibold p-8 rounded-3xl md:shadow-lg max-w-4xl w-full">
         <h2 className="text-[#1DB954] text-4xl font-bold mb-6">Experiencia</h2>
-        
         <div className="bg-[#222222] p-6 rounded-xl shadow-md">
           <h3 className="text-2xl font-semibold text-[#1DB954]">Onets</h3>
           <p className="text-[#D9D9D9] text-lg">Marzo 2024 - Septiembre 2024</p>
@@ -18,6 +20,8 @@ function Experiencia() {
           </ul>
         </div>
       </div>
+      
+      
     </div>
   );
 };
