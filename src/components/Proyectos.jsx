@@ -5,8 +5,14 @@ import "../styles/carouselStyles.css";
 function Proyectos() {
   const proyectos = [
     {
-      nombre: "AdminfyApp",
-      descripcion: "Aplicación de gestión de entidades en proceso de desarrollo.",
+      nombre: "Clubox",
+      descripcion: "Aplicación de gestión de entidades.",
+      imagen: "/Clubox.png",
+      enlace: "https://www.clubox.es/"
+    },
+    {
+      nombre: "Adminfy",
+      descripcion: "Web de empresa (en desarrollo).",
       imagen: "/adminfy.png",
       enlace: "https://adminfyapp.com/"
     },
