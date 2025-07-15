@@ -23,26 +23,28 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const disableScroll = (event) => event.preventDefault();
-    window.addEventListener("wheel", disableScroll, { passive: false });
-    return () => window.removeEventListener("wheel", disableScroll);
-  }, []);
+    // Bloquear/desbloquear scroll modificando el estilo del body
+    if (!isLoaded) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, [isLoaded]);
 
   return (
     <div className="min-h-screen overflow-x-hidden granulado font-orbitron">
-      {/* Pantalla de carga */}
       {!isLoaded && <LoadingScreen />}
 
-      {/* Header fijo en la parte superior */}
       <Header />
 
-      {/* Contenido principal con animación */}
       <div className={`main-content ${isLoaded ? "fade-in mt-16" : "hidden"}`}>
-        {/* Efectos de TV */}
         <div className="tv-static"></div>
         <div className="tv-scanlines"></div>
 
-        {/* Overlay de imagen */}
         <img
           src="/nueva-fondo.png"
           width="1920"
@@ -50,7 +52,6 @@ function App() {
           className="fixed w-screen h-screen select-none pointer-events-none z-50 inset-0"
         />
 
-        {/* Contenido principal */}
         <div className="flex flex-col">
           <div className="min-h-screen">
             <Inicio />
@@ -75,6 +76,7 @@ function App() {
           </div>
         </div>
       </div>
+
       <Analytics />
     </div>
   );
