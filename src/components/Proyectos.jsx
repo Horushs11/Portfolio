@@ -18,17 +18,8 @@ function Proyectos() {
     },
     {
       nombre: "Adminfy",
-      descripcion: "Web de empresa (en desarrollo).",
-      imagen: "/adminfy.png",
-      enlace: "https://www.adminfytechnologies.com/"
-    },
-    {
-      nombre: "PlanificadorIA",
-      descripcion: "Web para la planificación de tareas (En desarrollo).",
-      imagen: "/Plani.png",
-      enlace: ""
       descripcion: "Web de empresa.",
-      imagen: "/Tech.png",
+      imagen: "/adminfy.png",
       enlace: "https://www.adminfytechnologies.com/"
     },
     {
