@@ -11,10 +11,16 @@ function Proyectos() {
       enlace: "https://www.clubox.es/"
     },
     {
+      nombre: "Mundo Basket",
+      descripcion: "Mundo Basket es una aplicación web desarrollada con React y Tailwind, que consume datos estructurados en JSON para mostrar de forma dinámica plantillas, estadísticas y equipos de las ligas españolas de baloncesto.",
+      imagen: "/Mundobasket.png",
+      enlace: "https://mundo-basket.vercel.app/"
+    },
+    {
       nombre: "Adminfy",
-      descripcion: "Web de empresa (en desarrollo).",
-      imagen: "/adminfy.png",
-      enlace: "https://adminfyapp.com/"
+      descripcion: "Web de empresa.",
+      imagen: "/Tech.png",
+      enlace: "https://www.adminfytechnologies.com/"
     },
     {
       nombre: "Pokefy",
@@ -29,8 +35,7 @@ function Proyectos() {
       <div className="md:bg-[#121212] text-center p-8 rounded-3xl md:shadow-lg max-w-4xl w-full">
         <h2 className="text-[#1DB954] text-4xl font-bold mb-8">Proyectos</h2>
         <p className="text-[#D9D9D9] text-lg font-semibold text-center mb-4 leading-relaxed">
-          Aquí puedes ver los proyectos en los que he trabajado, reflejando mi
-          pasión y habilidades como desarrollador front-end.
+          Aquí puedes ver los proyectos en los que he trabajado.
         </p>
         
         <Carousel 
