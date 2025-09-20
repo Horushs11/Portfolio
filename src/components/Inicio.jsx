@@ -17,7 +17,7 @@ function Inicio() {
       
       {/* Descripción */}
       <p className="text-2xl font-semibold text-[#D9D9D9] text-center max-w-[100%] sm:max-w-[600px]">
-        Bienvenido a mi portafolio como desarrollador front-end
+        Bienvenido a mi portafolio como desarrollador front-end y diseñador UX/UI
       </p>
     </div>
   );
